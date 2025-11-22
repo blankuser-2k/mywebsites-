@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Hisham's Site</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Website</title>
+
+  <style>
+    /* Header title (bold + black) */
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      color: black;
+    }
+
+    /* Header subtitle (thin + red) */
+    .subtitle {
+      font-size: 18px;
+      font-weight: normal;
+      color: red;
+    }
+
+    /* Section paragraph (thin + black) */
+    .about-text {
+      font-size: 16px;
+      font-weight: normal;
+      color: black;
+    }
+
+    /* Contact email (green) */
+    .contact {
+      font-size: 16px;
+      font-weight: normal;
+      color: green;
+    }
+  </style>
 </head>
+
 <body>
+
+  <!-- HEADER SECTION -->
   <header>
-    <h1>Hello — I'm Hisham</h1>
-    <p>Simple website built from my phone.</p>
+    <p class="title">Welcome to this site.</p>
+    <p class="subtitle">This is a website for study purpose.</p>
+
+<img src="siteimage1.jpg" alt="My profile photo" width="250">
+
   </header>
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <p>I'm a college student studying computer science. This is a tiny website that uses very little storage.</p>
-    </section>
+  <!-- ABOUT SECTION -->
+  <section>
+    <h2>About</h2>
+    <p class="about-text">
+      I am a college student who created this website for study and learning purposes.
+      This website is built using simple HTML on a mobile phone, and it helps to practice
+      basic coding skills while studying.
+    </p>
+  </section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-    </section>
-  </main>
+  <!-- CONTACT SECTION -->
+  <section>
+    <h2>Contact</h2>
+    <p class="contact">
+      You can contact me at: 
+      <a href="mailto:blank2k00@gmail.com" style="color: green;">blank2k00@gmail.com</a>
+    </p>
+  </section>
 
-  <footer>
-    <p>© <span id="year"></span> Hisham</p>
-  </footer>
-
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
 </body>
 </html>
