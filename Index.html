@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hisham's Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hello — I'm Hisham</h1>
+    <p>Simple website built from my phone.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>I'm a college student studying computer science. This is a tiny website that uses very little storage.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Hisham</p>
+  </footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
