@@ -6,67 +6,41 @@
   <title>Simple Website</title>
 
   <style>
-    /* Header title (bold + black) */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.5;
+
+      /* Background gradient: light blue → yellow */
+      background: linear-gradient(to bottom right, #add8e6, #fff8a6);
+    }
+
+    header, section {
+      margin-bottom: 30px;
+    }
+
     .title {
       font-size: 24px;
       font-weight: bold;
       color: black;
     }
 
-    /* Header subtitle (thin + red) */
     .subtitle {
       font-size: 18px;
       font-weight: normal;
       color: red;
     }
 
-    /* Section paragraph (thin + black) */
     .about-text {
       font-size: 16px;
       font-weight: normal;
       color: black;
     }
 
-    /* Contact email (green) */
     .contact {
       font-size: 16px;
       font-weight: normal;
       color: green;
     }
-  </style>
-</head>
 
-<body>
-
-  <!-- HEADER SECTION -->
-  <header>
-    <p class="title">Welcome to this site.</p>
-    <p class="subtitle">This is a website for study purpose.</p>
-
-<img src="siteimage1.jpg" alt="My profile photo" width="250">
-
-  </header>
-
-  <!-- ABOUT SECTION -->
-  <section>
-    <h2>About</h2>
-    <p class="about-text">
-      I am a college student who created this website for study and learning purposes.
-      This website is built using simple HTML , and it helps to practice
-      basic coding skills while studying.
-    </p>
-  </section>
-
-  <!-- CONTACT SECTION -->
-  <section>
-    <h2>Contact</h2>
-    <p class="contact">
-      You can contact me at: 
-      <a href="mailto:blank2k00@gmail.com" style="color: green;">blank2k00@gmail.com</a>
-    </p>
-    <a href="news.html">News</a>
-
-  </section>
-
-</body>
-</html>
+    /* NEWS link — bold + thick green */
